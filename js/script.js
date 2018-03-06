@@ -9,9 +9,11 @@ document.getElementById("menu_list").addEventListener("click",function(e) {
 	document.getElementById("AMinfo").className = 'hide';
 	document.getElementById("ARinfo").className = 'hide';
 	document.getElementById("SKinfo").className = 'hide';
+	document.getElementById("REinfo").className = 'hide';
 	if (e.target.id === 'AM') document.getElementById("AMinfo").className = 'show';
 	if (e.target.id === 'AR') document.getElementById("ARinfo").className = 'show';
 	if (e.target.id === 'SK') document.getElementById("SKinfo").className = 'show';
+	if (e.target.id === 'RE') document.getElementById("REinfo").className = 'show';
   }
 	console.log('clicked');
 });
